@@ -1,0 +1,115 @@
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color: #172033;
+  background: #eef2ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+}
+
+.page {
+  width: min(1000px, 92%);
+  margin: 0 auto;
+  padding: 48px 0 80px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #5965d8;
+}
+
+h1 {
+  font-size: clamp(42px, 8vw, 72px);
+  margin: 8px 0;
+}
+
+.subtitle {
+  color: #65708a;
+  font-size: 18px;
+}
+
+.card {
+  background: white;
+  border-radius: 22px;
+  padding: 28px;
+  margin-top: 20px;
+  box-shadow: 0 12px 35px rgba(35, 45, 90, .09);
+}
+
+label {
+  display: block;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 180px;
+  border: 1px solid #d9deed;
+  border-radius: 14px;
+  padding: 16px;
+  font: inherit;
+  resize: vertical;
+}
+
+button {
+  margin-top: 16px;
+  border: 0;
+  border-radius: 12px;
+  padding: 13px 22px;
+  font-weight: 800;
+  cursor: pointer;
+  background: #5965d8;
+  color: white;
+}
+
+button:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+video {
+  width: 100%;
+  border-radius: 16px;
+  background: #111827;
+}
+
+.result a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #5965d8;
+}
+
+.error {
+  color: #c0392b;
+  margin-top: 14px;
+}
+
+.scenes {
+  display: grid;
+  gap: 12px;
+}
+
+.scenes article {
+  border: 1px solid #e1e5f0;
+  border-radius: 14px;
+  padding: 15px;
+}
+
+.scenes p {
+  margin: 7px 0;
+}
+
+.scenes small {
+  color: #69758e;
+}
